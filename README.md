@@ -3,6 +3,9 @@ MFCalendarView
 
 MFCalendarView is a custom event base CalendarView for Android.
 
+It based on http://www.androiddevelopersolution.com/2013/05/android-calendar-sync.html but I developed some features and several bugs fixed.
+
+
 
 #Usage
 
@@ -13,14 +16,12 @@ MFCalendarView is a custom event base CalendarView for Android.
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 </com.mustafaferhan.MFCalendarView>
-    
 ```
 
-#####MFCalendarView has a own date listeners:
+#####MFCalendarView has own listeners:
 
 ```java
 mf = (MFCalendarView) findViewById(R.id.mFCalendarView);
-
 mf.setOnCalendarViewListener(new onMFCalendarViewListener() {
 			
 	@Override
@@ -39,7 +40,7 @@ mf.setOnCalendarViewListener(new onMFCalendarViewListener() {
 
 ```
 
-#####You can set events
+#####You can set events:
 
 ```java
 
@@ -48,7 +49,6 @@ mf.setOnCalendarViewListener(new onMFCalendarViewListener() {
 	eventDays.add(Util.getCurrentDate());
 	
 	mf.setEvents(eventDays);
-		
 ```
 
 #Contributing

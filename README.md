@@ -5,7 +5,7 @@ MFCalendarView is a custom event base CalendarView for Android.
 
 It based on http://www.androiddevelopersolution.com/2013/05/android-calendar-sync.html but I developed some features and several bugs fixed.
 
-![Screenshot](https://raw2.github.com/MustafaFerhan/MFCalendarView/master/mfcalendarview.png)
+![Screenshot](https://raw2.github.com/MustafaFerhan/MFCalendarView/master/calendarview-half.png)
 
 
 #Usage
